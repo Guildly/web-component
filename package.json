@@ -1,0 +1,28 @@
+{
+  "name": "guildly",
+  "version": "0.0.1",
+  "description": "Library used to seamlessly intergrate Guildly contracts into your dapp!",
+  "license": "MIT",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "turbo run build --parallel",
+    "test": "turbo run test --parallel",
+    "lint": "turbo run lint --parallel"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.13",
+    "@starknet-react/core": "^0.16.0",
+    "react": "^18.2.0",
+    "starknet": "^4.22.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27"
+  }
+}
